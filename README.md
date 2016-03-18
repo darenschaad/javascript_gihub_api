@@ -5,6 +5,7 @@
 #### By Daren Schaad
 
 ## Setup/Installation Requirements
+#### Open terminal and:
 
 Clone this repository.
 ```
@@ -13,7 +14,6 @@ $ git clone https://github.com/darenschaad/javascript_gihub_api.git
 $ cd github_api
 ```
 
-#### Open terminal and:
 
 * install Node tools from command line
 ```
