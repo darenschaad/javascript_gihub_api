@@ -1,5 +1,6 @@
 $teal : #5EE5CB;
 $white : #FFFBF2;
+$grey-purple : #3A3885;
 
 
 .showHub {
@@ -35,5 +36,45 @@ body {
   text-align: center;
 }
 #updated {
+  text-align: center;
+}
+
+#gitLogo {
+  text-align: center;
+}
+
+@-webkit-keyframes wiggle {
+  0% {
+  -webkit-transform:rotate(6deg);
+  }
+  50% {
+  -webkit-transform:rotate(-6deg);
+  }
+  100% {
+  -webkit-transform:rotate(6deg);
+  }
+}
+
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: beige;
+  width: 100%;
+  height: 30vh;
+  top: 0;
+  left: 0;
+  .fa-github {
+    margin-top: 4vh;
+    font-size: 10em;
+    color: $grey-purple;
+    &:hover {
+    	-webkit-animation: wiggle 0.5s infinite;
+    }
+  }
+}
+
+.center {
   text-align: center;
 }

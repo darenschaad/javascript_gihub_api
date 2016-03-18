@@ -26,10 +26,10 @@ $ bower init
 $ bower install
 ```
 * build and run the server from the command line
-
+```
 $ gulp build
 $ gulp serve
-
+```
 * a window should pop up in your default browser, and you are off and running
 
 
