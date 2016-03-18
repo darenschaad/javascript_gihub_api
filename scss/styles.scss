@@ -1,0 +1,45 @@
+$teal : #5EE5CB;
+$white : #FFFBF2;
+
+
+.showWeather {
+  padding: 20px;
+}
+
+#map {
+  padding-left: 20px;
+  height: 500px;
+}
+
+body {
+  background-color: $white;
+
+  #location {
+    width: 40%;
+  }
+  .btn {
+    background-color: $teal;
+  }
+}
+
+#toggle0 {
+  display: none;
+}
+#toggle1 {
+  display: none;
+}
+#toggle2 {
+  display: none;
+}
+#toggle3 {
+  display: none;
+}
+#toggle4 {
+  display: none;
+}
+#toggle5 {
+  display: none;
+}
+#toggle6 {
+  display: none;
+}
