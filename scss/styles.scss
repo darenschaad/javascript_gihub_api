@@ -2,7 +2,7 @@ $teal : #5EE5CB;
 $white : #FFFBF2;
 
 
-.showWeather {
+.showHub {
   padding: 20px;
 }
 
@@ -22,24 +22,11 @@ body {
   }
 }
 
-#toggle0 {
-  display: none;
-}
-#toggle1 {
-  display: none;
-}
-#toggle2 {
-  display: none;
-}
-#toggle3 {
-  display: none;
-}
-#toggle4 {
-  display: none;
-}
-#toggle5 {
-  display: none;
-}
-#toggle6 {
-  display: none;
+#gitPic {
+
+  img {
+  height: 35vh;
+  width: auto;
+  margin-bottom: 12px;
+  }
 }
