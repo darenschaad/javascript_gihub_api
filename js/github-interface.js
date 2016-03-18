@@ -10,10 +10,14 @@ exports.getRepos = function(userName){
       // $('#gitPic').show();
       $('#gitPic').html("<img src='" + response[0].owner.avatar_url +  "'alt='github user avatar'/><br>");
       $('#repos').html("<h3>Repositories</h3>");
-    for (var i = 0 ; i < 20 ; i++){
+      $('#created').html("<h3>Created On</h3>");
+    for (var i = 0 ; i < response.length ; i++){
       $('#repos').append(response[i].name + "<br>");
     }
-    console.log(response[0].owner.avatar_url);
+    for (var j = 0 ; j < response.length ; j++){
+      $('#created').append(moment(response[j].created_at).format("MMM Do YYYY") + "<br>");
+    }
+    console.log(moment(response[0].created_at).calendar());
     // console.log(JSON.stringify(response));
   }).fail(function(error){
     console.log(error.responseJSON.message);

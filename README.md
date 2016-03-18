@@ -10,8 +10,9 @@ $ npm install
 $ bower init
 $ bower install
 ```
+* build and run the server
 
-* install SASS?
-```
-$ gem install sass
-```
+$ gulp build
+$ gulp serve
+
+* a window should pop up in your default browser, and you are off and running
